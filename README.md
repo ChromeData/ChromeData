@@ -1,4 +1,4 @@
-<h1>Hi, I'm Michael! <br/><a >Aspiring Programmer</a>, <a > Aspiring Cybersecurity Analyst</a>, <a >Videographer</a></h1>
+<h1>Hi, I'm Michael! <br/><a >Programmer</a>, <a >Cybersecurity Analyst</a>, <a > & Videographer!</a></h1>
 
 <h2>👨‍💻 Cyber Security Project:</h2>
 
