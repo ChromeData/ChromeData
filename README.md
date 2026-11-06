@@ -7,38 +7,30 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-58a6ff?style=for-the-badge&logo=linkedin&logoColor=white)][linkedin]
 [![Coursework](https://img.shields.io/badge/WGU-Coursework-58a6ff?style=for-the-badge&logo=github&logoColor=white)][wgu]
 
-I am a **privileged access and cloud security engineer**. I work on the accounts, secrets and escalation paths in cloud infrastructure. Most tools treat PAM and cloud security as two separate problems. I treat them as one problem.
+I am an **identity and privileged access engineer**. I build IAM and PAM systems for cloud environments and test them in real labs. I write down what failed and how I fixed it.
 
-I build each lab in a real environment and run real tools against it. I write down what failed and how I fixed it. **My current focus: secrets management in cloud-native tools, from a CyberArk/Idira point of view.**
+## Current work
 
-## What I'm building
+- **Hospital identity platform:** IAM/PAM for a fictional 5,000-person hospital, running in a real Microsoft Entra tenant. Joiner-mover-leaver automation, Conditional Access, PIM, PAM and detections, all as code.
+- **PAM x Cloud Labs:** 11 labs across CyberArk/Idira, Linux, AWS and Azure. Secrets injection, shadow admin audits, least-privilege IAM and detections.
 
-- **Hospital identity platform:** An IAM/PAM platform for a fictional 5,000-person hospital. It runs in a real Microsoft Entra tenant. It includes joiner-mover-leaver automation, Conditional Access, just-in-time admin (PIM), PAM and detections. All of it is code.
-- **PAM x Cloud Labs:** 11 labs across CyberArk/Idira, Linux, AWS and Azure. Each lab records what failed and how I fixed it.
-- **Conjur to Terraform secrets injection:** Terraform builds AWS resources with **no credentials in Terraform state**. An automated check proves it.
-- **Shadow admin audit:** I tested CyberArk SkyArk against known escalation paths in **AWS and Azure** and scored the results.
-- **Secrets Manager as a PAM control plane:** I compared AWS Secrets Manager with a CyberArk vault, control by control.
-
-_These repos are private. Code and walkthroughs are available on request. My public coursework is [here][wgu]._
+_These repos are private. Code is available on request. My coursework is [here][wgu]._
 
 ## Focus
 
-PAM · Secrets management · IAM least privilege · Policy as code · Cloud security posture · Infrastructure as code
+Identity and access management · Privileged access · Cloud security · Detection engineering · Automation · AI/ML
 
 ## Certifications
 
-- **CyberArk/Idira:** Guardian, Sentry, Defender
-- **Red Hat:** RHCSA, RHCE
-- **Microsoft:** SC-300 Identity and Access Administrator
-- **CompTIA:** Security+, Network+
+CyberArk Guardian, Sentry, Defender · Red Hat RHCSA, RHCE · Microsoft SC-300 · Salesforce Platform Administrator · CompTIA Security+, Network+ · Google Cybersecurity
 
 ## Education
 
-B.S. and M.S. in Computer Science, Western Governors University ([coursework][wgu])
+B.S. and M.S. in Computer Science, Western Governors University
 
 ## Tools
 
-Terraform · Ansible · Kubernetes · PowerShell · Python · Linux
+Entra ID · CyberArk · AWS · Azure · Terraform · Ansible · Kubernetes · Sentinel · Splunk · PowerShell · Python · Linux
 
 <!-- LINKS -->
 [wgu]: https://github.com/Bachelor-and-Masters-Class
