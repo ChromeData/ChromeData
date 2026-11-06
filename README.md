@@ -7,19 +7,19 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-58a6ff?style=for-the-badge&logo=linkedin&logoColor=white)][linkedin]
 [![Coursework](https://img.shields.io/badge/WGU-Coursework-58a6ff?style=for-the-badge&logo=github&logoColor=white)][wgu]
 
-I'm a **privileged access and cloud security engineer** working where PAM meets cloud infrastructure. The accounts, secrets, and escalation paths that most tooling treats as two separate problems, I treat as one.
+I am a **privileged access and cloud security engineer**. I work on the accounts, secrets and escalation paths in cloud infrastructure. Most tools treat PAM and cloud security as two separate problems. I treat them as one problem.
 
-I learn by building the thing and writing down where it broke. Everything below is a real lab: a real environment stood up, real tooling run against it, and honest notes on what failed. **Right now I'm building secrets management patterns that put a CyberArk/Idira lens on cloud native tooling. That is my main focus.**
+I build each lab in a real environment and run real tools against it. I write down what failed and how I fixed it. **My current focus: secrets management in cloud-native tools, from a CyberArk/Idira point of view.**
 
 ## 🔧 What I'm building
 
-- **Hospital identity platform:** a full IAM/PAM platform for a fictional 5,000-person hospital, running in a real Microsoft Entra tenant. Hire-to-leaver automation, Conditional Access, just-in-time admin, PAM and detections, all as code.
-- **PAM x Cloud Labs:** 11 hands-on labs across CyberArk/Idira, Linux, AWS and Azure, each documenting what broke and how I fixed it.
-- **Conjur to Terraform secrets injection:** provisioning AWS with **zero credentials in Terraform state**, proven by an automated check.
-- **Shadow admin audit:** scoring CyberArk's SkyArk against known escalation paths in **AWS and Azure**.
-- **Secrets Manager as a PAM control plane:** a CyberArk engineer's honest look at the cloud-native alternative to a vault.
+- **Hospital identity platform:** An IAM/PAM platform for a fictional 5,000-person hospital. It runs in a real Microsoft Entra tenant. It includes joiner-mover-leaver automation, Conditional Access, just-in-time admin (PIM), PAM and detections. All of it is code.
+- **PAM x Cloud Labs:** 11 labs across CyberArk/Idira, Linux, AWS and Azure. Each lab records what failed and how I fixed it.
+- **Conjur to Terraform secrets injection:** Terraform builds AWS resources with **no credentials in Terraform state**. An automated check proves it.
+- **Shadow admin audit:** I tested CyberArk SkyArk against known escalation paths in **AWS and Azure** and scored the results.
+- **Secrets Manager as a PAM control plane:** I compared AWS Secrets Manager with a CyberArk vault, control by control.
 
-_These repos are private. Code and walkthroughs available on request. My public coursework is [here][wgu]._
+_These repos are private. Code and walkthroughs are available on request. My public coursework is [here][wgu]._
 
 ## 🛡️ Focus areas
 
