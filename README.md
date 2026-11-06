@@ -26,7 +26,7 @@ CyberArk Guardian, Sentry, Defender · Red Hat RHCSA, RHCE · Microsoft SC-300 �
 
 ## Education
 
-B.S. and M.S. in Computer Science, Western Governors University
+B.S. and M.S. in Computer Science, Western Governors University. [See my coursework][wgu].
 
 ## Tools
 
